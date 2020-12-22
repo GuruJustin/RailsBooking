@@ -30,7 +30,7 @@ a {
 }
 
 #sidebar {
-	width: 200px;
+	width: 300px;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -99,12 +99,16 @@ a {
 }
 
 #main_content {
-	margin-left: 200px;
+	margin-left: 300px;
 	#header {
 		padding: 1.2em 3.5em;
 		border-bottom: 1px solid #b8e2fe;
 		background: #529FCD;
 		color: #FFF;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items:center;
 		p {
 			display: inline;
 		}
